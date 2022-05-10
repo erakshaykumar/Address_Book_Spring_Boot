@@ -4,12 +4,12 @@ import com.bridgelabz.AddressBook.dto.AddressbookDTO;
 import lombok.Data;
 
 @Data
-public class AddressBookData {
+public class AddressbookData {
     private int personId;
     private String name;
     private String phNumber;
 
-    public AddressBookData(int personId, AddressbookDTO addressbookDTO) {
+    public AddressbookData(int personId, AddressbookDTO addressbookDTO) {
         this.personId = personId;
         this.name = addressbookDTO.name;
         this.phNumber = addressbookDTO.phNumber;
