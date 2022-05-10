@@ -552,3 +552,44 @@ Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo can
 2022-05-10 14:20:10.351  INFO 14592 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Started AddressBookApplication in 3.168 seconds (JVM running for 4.1)
 2022-05-10 14:20:10.354  INFO 14592 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Addressbook App Started in COMMON Environment
 2022-05-10 14:20:10.355  INFO 14592 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Addressbook App started
+2022-05-10 14:29:06.323  INFO 508 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 11.0.15 on LAPTOP-0A5HNPDR with PID 508 (C:\Users\ASUS\IdeaProjects\AddressBook\target\classes started by ASUS in C:\Users\ASUS\IdeaProjects\AddressBook)
+2022-05-10 14:29:06.324 DEBUG 508 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 14:29:06.325  INFO 508 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-05-10 14:29:08.493  WARN 508 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-10 14:29:09.351  INFO 508 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Started AddressBookApplication in 3.593 seconds (JVM running for 4.688)
+2022-05-10 14:29:09.355  INFO 508 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Addressbook App Started in COMMON Environment
+2022-05-10 14:29:09.356  INFO 508 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Addressbook App started
+2022-05-10 14:29:55.566  INFO 5260 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 11.0.15 on LAPTOP-0A5HNPDR with PID 5260 (C:\Users\ASUS\IdeaProjects\AddressBook\target\classes started by ASUS in C:\Users\ASUS\IdeaProjects\AddressBook)
+2022-05-10 14:29:55.569 DEBUG 5260 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 14:29:55.570  INFO 5260 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-05-10 14:29:57.533  WARN 5260 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-10 14:29:58.302  WARN 5260 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-05-10 14:29:58.325  WARN 5260 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-05-10 14:29:58.369 ERROR 5260 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-05-10 14:37:44.123  INFO 9788 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 11.0.15 on LAPTOP-0A5HNPDR with PID 9788 (C:\Users\ASUS\IdeaProjects\AddressBook\target\classes started by ASUS in C:\Users\ASUS\IdeaProjects\AddressBook)
+2022-05-10 14:37:44.125 DEBUG 9788 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 14:37:44.126  INFO 9788 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : The following 1 profile is active: "DEV"
+2022-05-10 14:37:46.023  WARN 9788 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-10 14:37:46.780  INFO 9788 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Started AddressBookApplication in 3.006 seconds (JVM running for 3.728)
+2022-05-10 14:37:46.783  INFO 9788 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Addressbook App Started in DEV Environment
+2022-05-10 14:37:46.784  INFO 9788 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Addressbook App started
+2022-05-10 14:44:42.472  INFO 10780 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Starting AddressBookApplication using Java 11.0.15 on LAPTOP-0A5HNPDR with PID 10780 (C:\Users\ASUS\IdeaProjects\AddressBook\target\classes started by ASUS in C:\Users\ASUS\IdeaProjects\AddressBook)
+2022-05-10 14:44:42.474 DEBUG 10780 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 14:44:42.474  INFO 10780 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : The following 1 profile is active: "DEV"
+2022-05-10 14:44:44.791  WARN 10780 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-10 14:44:45.623  INFO 10780 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Started AddressBookApplication in 3.584 seconds (JVM running for 4.519)
+2022-05-10 14:44:45.626  INFO 10780 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Addressbook App Started in DEV Environment
+2022-05-10 14:44:45.628  INFO 10780 --- [restartedMain] c.b.AddressBook.AddressBookApplication   : Addressbook App started
