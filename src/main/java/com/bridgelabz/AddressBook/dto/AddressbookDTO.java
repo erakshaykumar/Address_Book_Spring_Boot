@@ -2,6 +2,9 @@ package com.bridgelabz.AddressBook.dto;
 
 import lombok.Data;
 
+/**
+Use Of Lombak In Addressbook Annotations
+ */
 @Data
 public class AddressbookDTO {
     public String name;

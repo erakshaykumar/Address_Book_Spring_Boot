@@ -3,6 +3,9 @@ package com.bridgelabz.AddressBook.model;
 import com.bridgelabz.AddressBook.dto.AddressbookDTO;
 import lombok.Data;
 
+/**
+Use Of Lombak In Addressbook Annotations
+ */
 @Data
 public class AddressbookData {
     private int personId;
