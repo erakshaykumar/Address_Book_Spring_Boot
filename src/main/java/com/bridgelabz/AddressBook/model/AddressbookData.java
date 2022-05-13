@@ -27,8 +27,7 @@ public class AddressbookData {
     private String email;
 
 
-    public AddressbookData(int personId, AddressbookDTO addressbookDTO) {
-        this.personId = personId;
+    public AddressbookData( AddressbookDTO addressbookDTO) {
         this.updateAddressBookdata(addressbookDTO);
 
     }
