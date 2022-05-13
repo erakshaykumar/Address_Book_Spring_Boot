@@ -21,9 +21,9 @@ public class AddressbookServiceImpl implements IAddressBookService {
     @Override
     public AddressbookData getAddressbookDataById(int personId) {
         return addressbookDataList.stream()
-                .filter(addressbookData -> addressbookData.getPersonId()==personId)
+                .filter(addressbookData -> addressbookData.getPersonId() == personId)
                 .findFirst()
-                .orElseThrow(()->new AddressbookException("Person Not found"));
+                .orElseThrow(() -> new AddressbookException("Person Not found"));
     }
 
     @Override
@@ -36,19 +36,18 @@ public class AddressbookServiceImpl implements IAddressBookService {
 
     @Override
     public AddressbookData updateAddressbookData(int personId, AddressbookDTO addressbookDTO) {
-        AddressbookData addressbookData = this.getAddressbookDataById(personId);
-        addressbookData.setName(addressbookDTO.name);
-        addressbookData.setPhNumber(addressbookDTO.phNumber);
-        addressbookDataList.set(personId - 1, addressbookData);
-        return addressbookData;
+            AddressbookData addressbookData = this.getAddressbookDataById(personId);
+            addressbookData.updateAddressBookdata(addressbookDTO);
+            addressbookDataList.set(personId - 1, addressbookData);
+            return addressbookData;
     }
 
     @Override
     public void deleteAddressbookData(int personId) {
         int i = 1;
-        addressbookDataList.remove(personId - 1);
-        for (AddressbookData addressbookData : addressbookDataList) {
-            addressbookData.setPersonId(i++);
-        }
+            addressbookDataList.remove(personId - 1);
+            for (AddressbookData addressbookData : addressbookDataList) {
+                addressbookData.setPersonId(i++);
+            }
     }
 }
