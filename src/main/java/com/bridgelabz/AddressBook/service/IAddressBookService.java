@@ -15,4 +15,18 @@ public interface IAddressBookService {
     AddressbookData updateAddressbookData(int personId, AddressbookDTO addressbookDTO);
 
     void deleteAddressbookData(int personId);
+
+    List<AddressbookData> sortAddressBookByCity();
+
+    List<AddressbookData> getAddressBookByCity(String city);
+
+    List<AddressbookData> sortAddressBookByState();
+
+    List<AddressbookData> getAddressBookByState(String state);
+
+    List<AddressbookData> sortAddressBookByZip();
+
+    List<AddressbookData> getAddressBookByZip(String state);
+
+    List<AddressbookData> sortAddressBookByName();
 }
